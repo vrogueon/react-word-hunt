@@ -8,25 +8,24 @@
     border-radius: 10px;
     padding: 10px 20px;
     overflow-x: hidden;
-}
-
-.subTitle {
+  }
+  
+  .subTitle {
     font-size: 5vw;
-    font-family: 'Monserrat', sans-serif;
-}
-
-@media (max-width:900px) {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  @media (max-width: 900px) {
     .meanings {
-        overflow-x: hidden;
-        overflow-y: scroll;
-        height: 60vh;
+      overflow: scroll;
+      overflow-x: hidden;
+      height: 60vh;
     }
-}
-
-.singleMean {
+  }
+  .singleMean {
     display: flex;
-    direction: column;
+    flex-direction: column;
     border-radius: 10px;
     padding: 10px 20px;
     margin: 10px 0;
-}
+  }
